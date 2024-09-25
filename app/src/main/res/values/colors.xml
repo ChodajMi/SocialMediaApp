@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DimGrey">#696969</color>
+    <color name="AshGrey">#B2B2B2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="DarkGrey">#A9A9A9</color>
+    <color name="Grey">#808080</color>
+    <color name="AshtGrey">#B2BEB5</color>
+    <color name="Silver">#C0C0C0</color>
+    <color name="HyperText">#0000EE</color>
+
+
+
+</resources>

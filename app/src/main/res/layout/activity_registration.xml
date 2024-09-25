@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".RegistrationActivity">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#32CD32"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#32CD32"
+        android:layout_marginBottom="24dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME:"
+        android:textColor="#808080"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.3"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        />
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="eg: Sonam Tobgay Dorji"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL:"
+        android:textColor="#808080"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.3"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        />
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="eg: stdThegreat@gmail.com"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textColor="#808080"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.3"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        />
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Strong Password Recommended"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:backgroundTint="#FFD700"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Already Registered Text -->
+    <TextView
+        android:id="@+id/tv_already_registered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Registered? Log in here."
+        android:textColor="#0000EE"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
