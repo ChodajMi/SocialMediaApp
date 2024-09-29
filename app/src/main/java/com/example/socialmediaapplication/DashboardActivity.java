@@ -47,7 +47,7 @@ public class DashboardActivity extends AppCompatActivity {
 
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
 
-            if (itemId == R.id.nav_feed) {
+            if (itemId == R.id.nav_home) {
                 actionBar.setTitle("Home");
                 HomeFragment fragment = new HomeFragment();
                 fragmentTransaction.replace(R.id.flFragment, fragment, "");
@@ -68,7 +68,7 @@ public class DashboardActivity extends AppCompatActivity {
                 fragmentTransaction.commit();
                 return true;
 
-            } else if (itemId == R.id.nav_notice) {
+            } else if (itemId == R.id.nav_chat) {
                 actionBar.setTitle("Notification");
                 NotificationFragment listFragment = new NotificationFragment();
                 fragmentTransaction.replace(R.id.flFragment, listFragment, "");

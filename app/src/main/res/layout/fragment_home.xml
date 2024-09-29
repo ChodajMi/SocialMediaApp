@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!-- activity_feed.xml -->
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    tools:context=".HomeFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/feedRecyclerView"
+        android:id="@+id/postrecyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="8dp"
-        android:padding="16dp" />
+        android:layout_height="match_parent" />
 
-</LinearLayout>
+</FrameLayout>

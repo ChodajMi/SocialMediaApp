@@ -43,6 +43,10 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     implementation 'com.mikhaellopez:circularimageview:4.3.1'
     implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.google.firebase:firebase-database:20.2.0' // Use the latest version available
+    implementation 'com.google.firebase:firebase-storage:20.2.0' // Use the latest version
+
+
 
 
     testImplementation libs.junit

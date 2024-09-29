@@ -110,7 +110,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign up"
-        android:backgroundTint="#FFD700"
+        android:backgroundTint="@color/yellow"
         android:textAlignment="center"
         android:textSize="16sp"
         android:fontFamily="sans-serif"
